@@ -1,0 +1,8 @@
+HETATM    1  C   PYR A 542      35.687   3.039   6.776  1.00 59.69           C  
+HETATM    2  O   PYR A 542      34.580   2.789   6.253  1.00 48.65           O  
+HETATM    3  OXT PYR A 542      36.677   3.339   6.077  1.00 63.23           O  
+HETATM    4  CA  PYR A 542      35.836   2.980   8.201  1.00 60.37           C  
+HETATM    5  O3  PYR A 542      35.325   3.847   8.937  1.00 59.36           O  
+HETATM    6  CB  PYR A 542      36.646   1.906   8.739  1.00 62.11           C  
+TER       7      PYR A 542                                                       
+END   

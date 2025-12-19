@@ -1,0 +1,8 @@
+HETATM    1  C   PYR B 302      56.520   4.986   6.034  1.00 31.39           C  
+HETATM    2  O   PYR B 302      57.433   4.125   5.849  1.00 25.66           O  
+HETATM    3  OXT PYR B 302      56.238   5.365   7.203  1.00 36.35           O  
+HETATM    4  CA  PYR B 302      55.689   5.578   4.912  1.00 30.28           C  
+HETATM    5  O3  PYR B 302      56.084   6.339   4.036  1.00 21.71           O  
+HETATM    6  CB  PYR B 302      54.242   5.220   4.964  1.00 34.27           C  
+TER       7      PYR B 302                                                       
+END   

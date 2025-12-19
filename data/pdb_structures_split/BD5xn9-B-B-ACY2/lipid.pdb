@@ -1,0 +1,6 @@
+HETATM    1  C  AACY B 214      19.105  51.033 100.763  0.96 45.41           C  
+HETATM    2  O  AACY B 214      19.085  51.759  99.756  0.96 44.16           O  
+HETATM    3  OXTAACY B 214      20.130  50.905 101.458  0.96 46.34           O  
+HETATM    4  CH3AACY B 214      17.870  50.269 101.132  0.96 45.76           C  
+TER       5      ACY B 214                                                       
+END   

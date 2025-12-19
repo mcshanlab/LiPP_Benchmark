@@ -1,0 +1,6 @@
+HETATM    1  C   ACY A 370       7.574   7.587  16.731  1.00 29.54           C  
+HETATM    2  O   ACY A 370       8.847   7.571  17.055  1.00 29.19           O  
+HETATM    3  OXT ACY A 370       6.794   6.577  16.564  1.00 27.54           O  
+HETATM    4  CH3 ACY A 370       7.021   8.987  16.538  1.00 30.08           C  
+TER       5      ACY A 370                                                       
+END   

@@ -1,0 +1,11 @@
+HETATM    1  CAA UEI A 502      42.695  29.682  31.218  1.00 18.73           C  
+HETATM    2  CAB UEI A 502      42.779  29.374  29.734  1.00 16.01           C  
+HETATM    3  CAC UEI A 502      42.136  28.020  29.455  1.00 19.05           C  
+HETATM    4  CAD UEI A 502      42.125  27.757  27.950  1.00 18.36           C  
+HETATM    5  CAE UEI A 502      43.560  27.614  27.474  1.00 19.60           C  
+HETATM    6  CAI UEI A 502      40.706  27.988  29.981  1.00 25.24           C  
+HETATM    7  OAF UEI A 502      42.096  30.417  29.092  1.00 18.85           O  
+HETATM    8  OAG UEI A 502      43.397  29.044  32.053  1.00 19.06           O  
+HETATM    9  OAH UEI A 502      41.904  30.580  31.587  1.00 19.57           O  
+TER      10      UEI A 502                                                       
+END   

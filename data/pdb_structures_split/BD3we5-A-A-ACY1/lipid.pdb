@@ -1,0 +1,6 @@
+HETATM    1  C   ACY A 201       3.681   3.796   1.816  1.00 54.84           C  
+HETATM    2  O   ACY A 201       3.762   4.407   2.910  1.00 41.93           O  
+HETATM    3  OXT ACY A 201       2.727   3.892   0.996  1.00 35.22           O  
+HETATM    4  CH3 ACY A 201       4.815   2.878   1.472  1.00 35.84           C  
+TER       5      ACY A 201                                                       
+END   

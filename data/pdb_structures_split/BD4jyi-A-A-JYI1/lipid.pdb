@@ -1,0 +1,32 @@
+HETATM    1  CAM JYI A 501      -9.125  14.807  -9.504  1.00 32.14           C  
+HETATM    2  CAJ JYI A 501      -8.972  15.726  -8.475  1.00 33.17           C  
+HETATM    3  CAI JYI A 501      -7.945  15.555  -7.556  1.00 31.78           C  
+HETATM    4  CAK JYI A 501      -7.031  14.500  -7.636  1.00 29.44           C  
+HETATM    5  CAN JYI A 501      -7.177  13.576  -8.671  1.00 28.88           C  
+HETATM    6  CAY JYI A 501      -8.233  13.726  -9.576  1.00 26.77           C  
+HETATM    7  CAV JYI A 501      -8.409  12.817 -10.600  1.00 27.63           C  
+HETATM    8  CBB JYI A 501      -8.236  11.396 -10.452  1.00 24.35           C  
+HETATM    9  CAS JYI A 501      -8.362  10.781  -9.203  1.00 21.32           C  
+HETATM   10  CAH JYI A 501      -8.831  13.363 -11.824  1.00 27.89           C  
+HETATM   11  CAT JYI A 501      -8.944  12.557 -12.925  1.00 27.39           C  
+HETATM   12  CBD JYI A 501      -7.908  11.370 -12.952  1.00 25.75           C  
+HETATM   13  CAA JYI A 501      -6.507  11.827 -13.225  1.00 25.36           C  
+HETATM   14  CAB JYI A 501      -8.386  10.491 -14.108  1.00 26.11           C  
+HETATM   15  CBC JYI A 501      -7.967  10.626 -11.589  1.00 25.63           C  
+HETATM   16  CAQ JYI A 501      -7.776   9.253 -11.454  1.00 22.01           C  
+HETATM   17  CAL JYI A 501      -7.928   8.689 -10.191  1.00 21.45           C  
+HETATM   18  CAW JYI A 501      -8.183   9.417  -9.057  1.00 17.55           C  
+HETATM   19  CAF JYI A 501      -8.333   8.758  -7.813  1.00 17.02           C  
+HETATM   20  CAG JYI A 501      -8.975   9.295  -6.686  1.00 17.58           C  
+HETATM   21  CBA JYI A 501      -9.226   8.526  -5.496  1.00 20.98           C  
+HETATM   22  CAP JYI A 501      -8.561   7.356  -5.137  1.00 22.11           C  
+HETATM   23  CAO JYI A 501      -8.868   6.636  -3.937  1.00 20.16           C  
+HETATM   24  CAZ JYI A 501      -9.895   7.079  -3.081  1.00 22.18           C  
+HETATM   25  CAU JYI A 501     -10.311   6.321  -1.784  1.00 24.06           C  
+HETATM   26  OAD JYI A 501     -11.312   6.751  -1.139  1.00 20.63           O  
+HETATM   27  OAC JYI A 501      -9.686   5.317  -1.416  1.00 27.00           O  
+HETATM   28  CAR JYI A 501     -10.564   8.265  -3.390  1.00 18.14           C  
+HETATM   29  CAX JYI A 501     -10.236   8.949  -4.601  1.00 22.17           C  
+HETATM   30 CL   JYI A 501     -11.136  10.346  -5.025  1.00 24.39          CL  
+TER      31      JYI A 501                                                       
+END   

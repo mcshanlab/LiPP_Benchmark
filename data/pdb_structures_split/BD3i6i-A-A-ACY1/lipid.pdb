@@ -1,0 +1,6 @@
+HETATM    1  C   ACY A 360       1.147   0.975  10.365  1.00 24.30           C  
+HETATM    2  O   ACY A 360       1.307   1.591  11.445  1.00 30.24           O  
+HETATM    3  OXT ACY A 360       1.945   1.039   9.387  1.00 19.11           O  
+HETATM    4  CH3 ACY A 360      -0.076   0.096  10.280  1.00 27.29           C  
+TER       5      ACY A 360                                                       
+END   

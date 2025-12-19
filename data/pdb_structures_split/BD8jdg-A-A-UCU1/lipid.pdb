@@ -1,0 +1,9 @@
+HETATM    1  CAA UCU A 502      42.262  30.552  31.187  1.00 19.81           C  
+HETATM    2  CAB UCU A 502      42.541  30.415  29.696  1.00 19.25           C  
+HETATM    3  CAC UCU A 502      41.951  29.117  29.150  1.00 19.94           C  
+HETATM    4  CAD UCU A 502      40.480  29.039  29.533  1.00 22.90           C  
+HETATM    5  OAE UCU A 502      41.439  31.406  31.599  1.00 21.84           O  
+HETATM    6  OAF UCU A 502      42.870  29.811  32.002  1.00 22.68           O  
+HETATM    7  OAG UCU A 502      42.007  31.529  29.038  1.00 20.02           O  
+TER       8      UCU A 502                                                       
+END   

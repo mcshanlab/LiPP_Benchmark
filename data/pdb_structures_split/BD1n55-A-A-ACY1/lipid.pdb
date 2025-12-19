@@ -1,0 +1,6 @@
+HETATM    1  C   ACY A 700      15.709   6.948  34.388  0.50  7.98           C  
+HETATM    2  O   ACY A 700      16.916   7.345  34.660  0.50  8.75           O  
+HETATM    3  OXT ACY A 700      15.075   7.369  33.431  0.50  7.53           O  
+HETATM    4  CH3 ACY A 700      15.191   5.815  35.248  0.50 12.01           C  
+TER       5      ACY A 700                                                       
+END   

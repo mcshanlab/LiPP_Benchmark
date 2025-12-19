@@ -1,0 +1,11 @@
+HETATM    1  OAA JIM A 193      21.629  -3.669   6.426  1.00 52.77           O  
+HETATM    2  CAB JIM A 193      22.642  -3.133   5.556  1.00 56.93           C  
+HETATM    3  CAC JIM A 193      23.876  -2.726   6.366  1.00 57.18           C  
+HETATM    4  CAD JIM A 193      24.431  -1.337   5.992  1.00 56.30           C  
+HETATM    5  OAE JIM A 193      25.760  -1.531   5.454  1.00 54.44           O  
+HETATM    6  CAF JIM A 193      26.854  -0.572   5.362  1.00 56.72           C  
+HETATM    7  OAG JIM A 193      27.941  -0.998   4.960  1.00 57.41           O  
+HETATM    8  OAH JIM A 193      24.886  -3.688   6.050  1.00 60.00           O  
+HETATM    9  CAI JIM A 193      26.682   0.866   5.758  1.00 52.03           C  
+TER      10      JIM A 193                                                       
+END   

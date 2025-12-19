@@ -1,0 +1,6 @@
+HETATM    1  C   ACY A   8      14.349 -47.451  -6.748  1.00 44.71           C  
+HETATM    2  O   ACY A   8      13.435 -46.877  -7.413  1.00 45.21           O  
+HETATM    3  OXT ACY A   8      14.257 -47.559  -5.520  1.00 42.03           O  
+HETATM    4  CH3 ACY A   8      15.624 -47.969  -7.431  1.00 44.93           C  
+TER       5      ACY A   8                                                       
+END   

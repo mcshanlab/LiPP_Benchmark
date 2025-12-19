@@ -1,0 +1,6 @@
+HETATM    1  C   ACY B   2      19.536  28.161   4.091  1.00 19.50           C  
+HETATM    2  O   ACY B   2      20.632  28.757   4.124  1.00 19.42           O  
+HETATM    3  OXT ACY B   2      18.440  28.718   4.323  1.00 20.55           O  
+HETATM    4  CH3 ACY B   2      19.543  26.707   3.740  1.00 18.88           C  
+TER       5      ACY B   2                                                       
+END   

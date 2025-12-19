@@ -1,0 +1,6 @@
+HETATM    1  C   ACY A 406       7.093  48.696  47.335  1.00  8.56           C  
+HETATM    2  O   ACY A 406       7.317  48.553  48.492  1.00 11.32           O  
+HETATM    3  OXT ACY A 406       7.885  49.317  46.634  1.00 14.19           O  
+HETATM    4  CH3 ACY A 406       5.811  47.946  46.795  1.00  4.62           C  
+TER       5      ACY A 406                                                       
+END   

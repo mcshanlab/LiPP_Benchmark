@@ -1,0 +1,14 @@
+name: diff_env
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3.10
+  - scipy
+  - conda-forge::path
+  - bioconda::openstructure
+  - seaborn
+  - goatools

@@ -1,0 +1,13 @@
+HETATM    1  CAA UIT A 502      42.171  30.279  31.120  0.56 22.92           C  
+HETATM    2  CAB UIT A 502      42.162  29.965  29.634  0.86 24.36           C  
+HETATM    3  CAC UIT A 502      41.535  28.589  29.424  1.00 26.28           C  
+HETATM    4  CAD UIT A 502      41.576  28.201  27.940  1.00 25.64           C  
+HETATM    5  CAE UIT A 502      42.997  27.909  27.452  1.00 25.59           C  
+HETATM    6  CAF UIT A 502      42.922  27.541  25.966  1.00 26.10           C  
+HETATM    7  CAG UIT A 502      44.306  27.186  25.422  0.68 21.92           C  
+HETATM    8  CAH UIT A 502      44.133  26.570  24.031  0.90 25.45           C  
+HETATM    9  OAI UIT A 502      41.399  30.976  29.028  0.78 23.99           O  
+HETATM   10  OAJ UIT A 502      42.990  29.710  31.889  0.98 26.42           O  
+HETATM   11  OAK UIT A 502      41.351  31.128  31.556  0.93 24.14           O  
+TER      12      UIT A 502                                                       
+END   

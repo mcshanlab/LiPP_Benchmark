@@ -1,0 +1,28 @@
+HETATM    1  CAA LBU B 501      63.582   5.292  39.273  1.00 70.93           C  
+HETATM    2  CAB LBU B 501      62.201   5.148  39.487  1.00 69.68           C  
+HETATM    3  CAC LBU B 501      61.541   4.037  38.982  1.00 68.87           C  
+HETATM    4  OAO LBU B 501      60.196   3.898  39.197  1.00 67.30           O  
+HETATM    5  CAD LBU B 501      62.273   3.085  38.254  1.00 67.37           C  
+HETATM    6  CAE LBU B 501      63.652   3.231  38.042  1.00 64.14           C  
+HETATM    7  CAF LBU B 501      64.332   4.342  38.554  1.00 59.27           C  
+HETATM    8  CAG LBU B 501      65.739   4.520  38.334  1.00 51.08           C  
+HETATM    9  CAI LBU B 501      66.001   5.184  36.953  1.00 40.85           C  
+HETATM   10  CAR LBU B 501      65.268   6.414  36.817  1.00 43.61           C  
+HETATM   11  OAX LBU B 501      65.332   7.296  37.682  1.00 49.05           O  
+HETATM   12  OAY LBU B 501      64.537   6.588  35.662  1.00 45.59           O  
+HETATM   13  CAZ LBU B 501      64.561   7.961  35.189  1.00 42.24           C  
+HETATM   14  OAJ LBU B 501      65.570   4.212  35.924  1.00 37.47           O  
+HETATM   15  CAK LBU B 501      66.615   4.115  35.052  1.00 36.20           C  
+HETATM   16  OAP LBU B 501      66.645   3.400  34.010  1.00 33.55           O  
+HETATM   17  CAL LBU B 501      67.664   4.868  35.437  1.00 35.77           C  
+HETATM   18  OAQ LBU B 501      68.793   4.950  34.688  1.00 30.40           O  
+HETATM   19  CAM LBU B 501      67.388   5.507  36.604  1.00 37.28           C  
+HETATM   20  CAN LBU B 501      68.329   6.228  37.311  1.00 34.68           C  
+HETATM   21  CAS LBU B 501      69.438   5.479  37.785  1.00 37.23           C  
+HETATM   22  CAT LBU B 501      70.500   6.066  38.522  1.00 35.32           C  
+HETATM   23  CAU LBU B 501      70.509   7.427  38.869  1.00 39.16           C  
+HETATM   24  OBA LBU B 501      71.573   7.958  39.617  1.00 38.03           O  
+HETATM   25  CAV LBU B 501      69.430   8.200  38.399  1.00 37.08           C  
+HETATM   26  CAW LBU B 501      68.368   7.608  37.644  1.00 35.76           C  
+TER      27      LBU B 501                                                       
+END   

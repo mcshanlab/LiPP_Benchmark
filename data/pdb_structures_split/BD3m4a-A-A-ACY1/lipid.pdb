@@ -1,0 +1,6 @@
+HETATM    1  C   ACY A 804       8.770   6.357 -11.972  1.00  8.62           C  
+HETATM    2  O   ACY A 804       7.897   7.196 -12.300  1.00  7.88           O  
+HETATM    3  OXT ACY A 804       8.946   5.998 -10.787  1.00  7.46           O  
+HETATM    4  CH3 ACY A 804       9.642   5.775 -13.042  1.00  8.72           C  
+TER       5      ACY A 804                                                       
+END   
