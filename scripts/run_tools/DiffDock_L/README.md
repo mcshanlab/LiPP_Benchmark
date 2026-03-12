@@ -1,4 +1,4 @@
-Steps to run DiffDock-L on the DolphinBusters dataset
+Steps to run DiffDock-L on the LiPP dataset
 
 1. Install conda environments from environments/
 - `conda env create -f diff_env.yml`

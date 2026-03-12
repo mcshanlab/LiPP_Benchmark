@@ -1,4 +1,4 @@
-dolphinbusters_path: "data/DolphinBusters_csvfiles/<name-of-the-set>.csv"
+LiPP_path: "data/LiPP_csvfiles/<name-of-the-set>.csv"
 pdb_path: "data/pdb_structures_split"
 pdb_complex_path: "data/pdb_structures_complex"
 conda_path: "<path-to-conda-envs>/.conda/envs"

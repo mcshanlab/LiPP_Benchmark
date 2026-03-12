@@ -1,7 +1,7 @@
 ## Instructions to run the scipts to analyze and visualize the evalaution results
 
 ### Overview
-The `compare.py` script provides visualizations  of different protein-ligand docking and structure prediction methods on the DolphinBusters benchmark dataset. It calculates success rates, generates visualizations, and produces a results report comparing:
+The `compare.py` script provides visualizations  of different protein-ligand docking and structure prediction methods on the LiPP benchmark dataset. It calculates success rates, generates visualizations, and produces a results report comparing:
 - AlphaFold 3 (AF)
 - Chai-1 (CHAI)
 - AutoDock Vina (VINA)

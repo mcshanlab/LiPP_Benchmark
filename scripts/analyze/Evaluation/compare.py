@@ -42,16 +42,16 @@ def AddPrefix(df: pd.DataFrame, prefix: str) -> pd.DataFrame:
 
 def TagClasses(df_rmsds: pd.DataFrame, df_dolbuster: pd.DataFrame, add_cols: Optional[List[str]] = None) -> pd.DataFrame:
     """
-    Merge RMSD results with DolphinBusters metadata tags (protein families, lipid classes, etc.).
+    Merge RMSD results with LiPP metadata tags (protein families, lipid classes, etc.).
     
     Parameters
     ----------
     df_rmsds : pd.DataFrame
         Input dataframe containing RMSD results with 'BioDolphinID' column.
     df_dolbuster : pd.DataFrame
-        DolphinBusters dataset containing metadata annotations.
+        LiPP dataset containing metadata annotations.
     add_cols : Optional[List[str]]
-        Columns to merge from DolphinBusters. Defaults to biological metadata columns.
+        Columns to merge from LiPP. Defaults to biological metadata columns.
     
     Returns
     -------
@@ -370,14 +370,14 @@ def load_dataframes(chai_csv_path: str, af_csv_path: str, vina_cvs_path: str, rs
     return merged_df
 
 
-def load_unique_data(dolphinbusters_path: str, test_data_cutoff: Union[str, pd.Timestamp], unique_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
+def load_unique_data(LiPP_path: str, test_data_cutoff: Union[str, pd.Timestamp], unique_df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
-    Load DolphinBusters metadata and prepare datasets for analysis.
+    Load LiPP metadata and prepare datasets for analysis.
     
     Parameters
     ----------
-    dolphinbusters_path : str
-        Path to BioDolphinBusters CSV file containing metadata.
+    LiPP_path : str
+        Path to BioLiPP CSV file containing metadata.
     test_data_cutoff : Union[str, pd.Timestamp]
         Cutoff date for separating General vs Untrained datasets.
     unique_df : pd.DataFrame
@@ -390,9 +390,9 @@ def load_unique_data(dolphinbusters_path: str, test_data_cutoff: Union[str, pd.T
         - unique_df: Full dataset with metadata and PDB classifications
         - new_released_df: Subset released after cutoff date, saved to 'unique_new_rmsd.csv'
     """
-    df_dolbuster = pd.read_csv(dolphinbusters_path)
+    df_dolbuster = pd.read_csv(LiPP_path)
     num_rows = df_dolbuster.shape[0]
-    print(f'number of data in the DolphinBusters Dataset evaluated: {num_rows}')
+    print(f'number of data in the LiPP Dataset evaluated: {num_rows}')
     print('-----------------------------------------------------------')
 
     unique_df = TagClasses(unique_df, df_dolbuster, add_cols=['BioDolphinID','protein_Sequence'])
@@ -619,8 +619,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     config = load_config()
-    dolphinbusters_path = config["dolphinbusters_path"]
-    print(f'Using dolphinbusters_path: {dolphinbusters_path}')
+    LiPP_path = config["LiPP_path"]
+    print(f'Using LiPP_path: {LiPP_path}')
 
     TEST_DATA_CUTOFF = '2021-10-01' 
 
@@ -628,7 +628,7 @@ if __name__ == "__main__":
 
     print('Using the provided unique_rmsd.csv file')
     unique_df = pd.read_csv('./unique_rmsd.csv')
-    unique_df, new_released_df = load_unique_data(dolphinbusters_path, TEST_DATA_CUTOFF, unique_df)
+    unique_df, new_released_df = load_unique_data(LiPP_path, TEST_DATA_CUTOFF, unique_df)
 
     # Run analysis
     run_analysis(unique_df, new_released_df, TEST_DATA_CUTOFF)

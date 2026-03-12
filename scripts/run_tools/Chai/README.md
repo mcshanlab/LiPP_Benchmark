@@ -1,4 +1,4 @@
-Steps to run Chai-l on the DolphinBusters dataset
+Steps to run Chai-l on the LiPP dataset
 
 
 ### 1. Install conda environments in the environments/ directory 

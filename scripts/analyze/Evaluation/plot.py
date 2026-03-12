@@ -659,6 +659,7 @@ def plot_scatter_protein_errors_seaborn(df, prefix_list, fig_path, cutoff="2023-
                 plt.ylabel('Lipid RMSD (Å)', fontsize=fontsize)
                 plt.xticks(fontsize=fontsize)
                 plt.yticks(fontsize=fontsize)
+                plt.gca().xaxis.set_major_formatter(FuncFormatter(lambda x, pos: f"{x:.1f}"))
                 plt.axhline(y=2, color='red', linestyle='--')
 
                 plt.tight_layout()

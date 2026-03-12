@@ -1,0 +1,10 @@
+mode: "cluster"
+analysis_name: "cluster_settings"
+input_dir: "demo/cluster_settings/in_dir"
+output_dir: "demo/cluster_settings/out_dir"
+
+plotting_modes:
+- "pca_umap"
+- "pca_tsne"
+
+features_file: "uniprot_features_updated.tsv"

@@ -1,4 +1,4 @@
-Steps to run AF3 on the DolphinBusters dataset
+Steps to run AF3 on the LiPP dataset
 
 
 ### 1. Install conda environments in the environments/ directory 

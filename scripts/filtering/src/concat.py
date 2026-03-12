@@ -4,7 +4,7 @@ from typing import List
 import pandas as pd
 from src.filter import *
 
-def getFinal(repo_PATH: str, intermediate_PATH: str, final_fn: str = 'DolphinBuster_vr1.1.csv', res: float = 2) -> pd.DataFrame:
+def getFinal(repo_PATH: str, intermediate_PATH: str, final_fn: str = 'LiPP_vr1.1.csv', res: float = 2) -> pd.DataFrame:
     """Concatenate distance-filtered subsets, apply resolution filter, and save.
 
     Args:

@@ -81,9 +81,9 @@ def process_protein_files(main_directory, split_alt_confs_script, prepare_recept
     print("Conversion completed!")
 
 
-def create_prep_directory(dolphinbusters_path: str, pdb_path: str) -> None:
+def create_prep_directory(LiPP_path: str, pdb_path: str) -> None:
     """Create a 'prep' directory for the converted inputs."""
-    BDIDs_df = pd.read_csv(dolphinbusters_path)
+    BDIDs_df = pd.read_csv(LiPP_path)
     BDIDs_list = BDIDs_df['BioDolphinID'].tolist()
     # make a prep directory in current directory
     Path("./prep").mkdir(parents=True, exist_ok=True)
@@ -106,8 +106,8 @@ if __name__ == "__main__":
     config = load_config()
     conda_env_path = config["conda_path"]
     pdb_path = config["pdb_path"]
-    dolphinbusters_path = config["dolphinbusters_path"]
-    create_prep_directory(dolphinbusters_path, pdb_path)
+    LiPP_path = config["LiPP_path"]
+    create_prep_directory(LiPP_path, pdb_path)
     
     main_directory = './prep'
     # Set up conda environment path:

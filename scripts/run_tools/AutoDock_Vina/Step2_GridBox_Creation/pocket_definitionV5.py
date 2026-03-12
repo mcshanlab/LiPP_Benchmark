@@ -227,7 +227,7 @@ if __name__ == "__main__":
     
     config = load_config()
     pdb_directory = config["pdb_complex_path"]
-    csv_file = config["dolphinbusters_path"]    
+    csv_file = config["LiPP_path"]    
     output_excel = 'output_residues.xlsx'
 
     main(csv_file, pdb_directory, output_excel)

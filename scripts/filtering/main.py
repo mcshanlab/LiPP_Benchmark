@@ -196,7 +196,7 @@ def combine_dataframes(PATH_INTERMEDIATE: str, resolution: int = 2) -> pd.DataFr
     """
     print('combining the dataframes')
     with open(f"{PATH_INTERMEDIATE}/outfile.txt", "a") as f:
-        final_df = getFinal(repo_PATH='./', intermediate_PATH=PATH_INTERMEDIATE, final_fn='DolphinBuster_res2.csv', res=resolution )
+        final_df = getFinal(repo_PATH='./', intermediate_PATH=PATH_INTERMEDIATE, final_fn='LiPP_res2.csv', res=resolution )
         print(f'# Number of data after filtering distance and with resoltion < {resolution}: {CalculateSize(final_df)}')
         f.write(f'# Number of data after filtering distance and with resoltion < {resolution}: {CalculateSize(final_df)} \n')
 

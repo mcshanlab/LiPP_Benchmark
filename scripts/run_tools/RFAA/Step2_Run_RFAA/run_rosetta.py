@@ -132,7 +132,7 @@ if __name__ == "__main__":
     print(f"Main directory: {main_directory}")
     rfaa_software_directory = config["RFAA_path"]
     base_yaml_file_path ="./base.yaml"
-    csv_directory = config["dolphinbusters_path"]
+    csv_directory = config["LiPP_path"]
 
     df = pd.read_csv(csv_directory)
     # Create a dictionary mapping BioDolphinID to SMILES strings

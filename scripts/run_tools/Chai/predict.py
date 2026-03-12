@@ -94,7 +94,7 @@ def main(args: Optional[argparse.Namespace] = None) -> None:
     if IDs_to_run is None:
         print('preparing to run on a range of dataset using the index')
         config = load_config()
-        dataset_path = config["dolphinbusters_path"]
+        dataset_path = config["LiPP_path"]
         startIDX, endIDX = args.start, args.end
 
         ids = get_ids_from_range(dataset_path, startIDX, endIDX)

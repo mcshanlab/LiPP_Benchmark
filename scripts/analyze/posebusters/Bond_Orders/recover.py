@@ -139,9 +139,9 @@ if __name__ == "__main__":
     df_dict = read_ligand_expo()
 
     
-    # Loop over the unique dolphinbuster set
-    dolphinbuster_unique_df = pd.read_csv('../Evaluation/unique_rmsd.csv')
-    unique_BDIDs = dolphinbuster_unique_df['BioDolphinID'].tolist()
+    # Loop over the unique LiPP set
+    LiPP_unique_df = pd.read_csv('../Evaluation/unique_rmsd.csv')
+    unique_BDIDs = LiPP_unique_df['BioDolphinID'].tolist()
 
     
     for BDID in unique_BDIDs:

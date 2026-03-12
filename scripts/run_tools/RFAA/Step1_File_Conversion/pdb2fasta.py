@@ -81,7 +81,7 @@ def process_folders(main_path: str) -> None:
                 print(f"'protein.pdb' not found in folder: {foldername}")pdb' not found in folder: {foldername}")
 
 
-def create_prep_directory(dolphinbusters_path: str, pdb_path: str) -> None:
+def create_prep_directory(LiPP_path: str, pdb_path: str) -> None:
     """
     Creates a preparation directory with selected BioDolphin datasets for RFAA processing.
     
@@ -90,13 +90,13 @@ def create_prep_directory(dolphinbusters_path: str, pdb_path: str) -> None:
     the input structure needed for RFAA workflow.
     
     Args:
-        dolphinbusters_path (str): Path to CSV file containing BioDolphin IDs in 'BioDolphinID' column.
+        LiPP_path (str): Path to CSV file containing BioDolphin IDs in 'BioDolphinID' column.
         pdb_path (str): Source directory path containing subdirectories named by BioDolphin IDs.
     
     Returns:
         None: Function creates directory structure and prints status messages.
     """
-    BDIDs_df = pd.read_csv(dolphinbusters_path)
+    BDIDs_df = pd.read_csv(LiPP_path)
     BDIDs_list = BDIDs_df['BioDolphinID'].tolist()
     # make a input directory in current directory
     Path("../input").mkdir(parents=True, exist_ok=True)
@@ -117,9 +117,9 @@ def create_prep_directory(dolphinbusters_path: str, pdb_path: str) -> None:
 if __name__ == "__main__":
     config = load_config()
     pdb_path = config["pdb_path"]
-    dolphinbusters_path = config["dolphinbusters_path"]
+    LiPP_path = config["LiPP_path"]
     print(f'Using dataset path: {pdb_path}')
-    print(f'Using dolphinbusters_path: {dolphinbusters_path}')
-    create_prep_directory(dolphinbusters_path, pdb_path)
+    print(f'Using LiPP_path: {LiPP_path}')
+    create_prep_directory(LiPP_path, pdb_path)
     process_folders('../input')
     print("Processing complete.")
